@@ -10,6 +10,8 @@
 
 .site-layout-content h1 {
   font-size: calc(2.8rem + (30 - 28) * ((100vw - 400px) / (1200 - 400)));
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
 }
 
 .site-layout-content p {
@@ -36,6 +38,7 @@
   z-index: 100;
   font-size: 48px;
   padding: 20px;
+  color: #431857;
 }
 
 .next-btn {
@@ -45,6 +48,7 @@
   font-size: 48px;
   right: 0;
   padding: 20px;
+  color: #431857;
 }
 
 .carousel img {
@@ -53,9 +57,115 @@
 }
 
 .carousel-inside {
-  height: "160px";
-  color: "#000";
-  line-height: "160px";
-  text-align: "center";
-  background: "#364d79";
+  height: 160px;
+  color: #000;
+  line-height: 160px;
+  text-align: center;
+  background: #364d79;
+}
+
+.card-holder {
+  margin: 50px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.h-card {
+  margin: auto;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 5%;
+  height: 475px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h-card h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  position: relative;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+
+.h-card div {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.h-card p {
+  color: #fff;
+  text-align: left;
+}
+
+.h-card::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 5%;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.h-card:hover {
+  transform: translate(-5px, -5px);
+  opacity: 0.8;
+}
+
+.card1 {
+  background-image: url("../assets/Civil_War_Sword.jpg");
+}
+
+.card2 {
+  background-image: url("../assets/Basement_Woodstove.jpg");
+}
+
+.card3 {
+  background-image: url("../assets/Original_Chair.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+  .site-layout-content h1 {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .card-holder {
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h-card {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  .h-card h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .prev-btn {
+    display: none;
+  }
+
+  .next-btn {
+    display: none;
+  }
+
+  .h-card:hover {
+    transform: none;
+  }
 }

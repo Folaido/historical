@@ -9,9 +9,9 @@ const Topbar = (props) => {
   return (
     <div className="topbar">
       <div className="header">
-        <div className="logo">
+        <a href="http://localhost:3000" className="logo">
           <img src={logo} alt="Logo" />
-        </div>
+        </a>
         <div className="menu">
           <Menu
             style={{
@@ -24,7 +24,6 @@ const Topbar = (props) => {
             selectedKeys={[selectedKey]}
             inlineIndent={24}
           >
-              
             <Menu.Item key="Home">
               <Link to="/">Home</Link>
             </Menu.Item>
@@ -33,7 +32,7 @@ const Topbar = (props) => {
               <Link to="/stories">Stories</Link>
             </Menu.Item>
 
-            <Menu.Item key="3">
+            <Menu.Item key="Visit">
               <Link to="/visit">Visit</Link>
             </Menu.Item>
 

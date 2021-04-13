@@ -1,12 +1,23 @@
 .footer {
-    margin: 0 auto;
-    max-width: 800px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .info {
-    text-align: right;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    max-width: max-content;
+    display: block;
+  }
+  .info {
+    margin-top: 20px;
+    text-align: center;
+  }
 }

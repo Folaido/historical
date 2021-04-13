@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import About from "./components/About";
 import Stories from "./components/Stories";
+import Visit from "./components/Visit";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Stories />
         </Route>
         <Route path="/visit">
-          <Home />
+          <Visit />
         </Route>
       </Switch>
     </Router>

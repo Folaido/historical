@@ -1,0 +1,34 @@
+@import "~antd/dist/antd.css";
+.content {
+  padding: 24px 240px;
+  margin: auto, 0px;
+  background: #fff;
+}
+
+.content p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.content li {
+  font-size: 20px;
+}
+
+.mesuem-pic {
+  display: block;
+  margin: 30px auto;
+  border: 1px solid #000;
+  border-radius: 5%;
+  width: 750px;
+  max-height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+  .pic-container {
+    width: 312px;
+    height: 200px;
+  }
+}

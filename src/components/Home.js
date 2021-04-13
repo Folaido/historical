@@ -39,9 +39,9 @@ const Home = () => {
         </Carousel>
         <RightCircleOutlined className="next-btn" onClick={onNextClick} />
         <div className="site-layout-content">
-          <h1>Norton Historical Society</h1>
+          <h1>NORTON HISTORICAL SOCIETY</h1>
           <p>
-            Who we are: We are 501(c)(3) non-profit corporation dedicated to
+            We are 501(c)(3) non-profit corporation dedicated to
             “preserving material relative to the history of Norton.”
           </p>
           <p className="bold" style={{ display: "inline" }}>
@@ -53,6 +53,30 @@ const Home = () => {
           <p>Email or call to connect us</p>
           <p className="bold">nortonhistorical@gmail.com</p>
           <p className="bold">(508)285-8300</p>
+
+          <div className="card-holder">
+            <a className="h-card card1" href="http://localhost:3000/visit">
+              <h1>Visit Norton Historical Mesuem</h1>
+              <div>
+                <p>Visiting the Norton historical mesuem.</p>
+              </div>
+            </a>
+            <a className="h-card card2" href="http://localhost:3000/stories">
+              <h1>Support Norton History</h1>
+              <div>
+                <p>
+                  Your support, in any form or amount, is integral to helping
+                  advance our mission.
+                </p>
+              </div>
+            </a>
+            <a className="h-card card3" href="http://localhost:3000/about">
+              <h1>This Place in History</h1>
+              <div>
+                <p>Exporing the history of the town.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </Content>
       <Footer>

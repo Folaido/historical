@@ -2,7 +2,7 @@
   width: 100%;
   position: sticky;
   top: 0;
-  z-index: 10000;
+  z-index: 101;
   background-color: #fff;
   box-shadow: 0 1px 4px rgb(0 0 0 / 40%);
   /* border-bottom: 1px solid #000; */
@@ -21,7 +21,7 @@
 }
 
 .logo {
-  width: 120px;
+  width: 271px;
   height: 120px;
   margin: 0;
   background: rgba(255, 255, 255, 0.2);
@@ -43,4 +43,10 @@
 
 .ant-menu-horizontal {
   border-bottom: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin: auto;
+  }
 }
