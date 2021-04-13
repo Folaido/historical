@@ -24,9 +24,6 @@ const Topbar = (props) => {
             selectedKeys={[selectedKey]}
             inlineIndent={24}
           >
-            <Menu.Item key="Home">
-              <Link to="/">Home</Link>
-            </Menu.Item>
 
             <Menu.Item key="Stories">
               <Link to="/stories">Stories</Link>
@@ -36,8 +33,12 @@ const Topbar = (props) => {
               <Link to="/visit">Visit</Link>
             </Menu.Item>
 
+            <Menu.Item key="Merchandise">
+              <Link to="/merchandise">Merchandise</Link>
+            </Menu.Item>
+
             <Menu.Item key="About">
-              <Link to="/about">About</Link>
+              <Link to="/about">About Us</Link>
             </Menu.Item>
           </Menu>
         </div>

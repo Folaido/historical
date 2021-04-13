@@ -1,0 +1,85 @@
+.site-layout-content {
+  position: relative;
+}
+
+.class-pic {
+  display: block;
+  margin: 30px auto;
+  border: 1px solid #000;
+  border-radius: 5%;
+  width: 700px;
+  max-height: 400px;
+}
+
+.featured-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #333;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.book-content {
+  margin: auto;
+}
+
+.btn {
+  margin: 0;
+}
+
+.book-img {
+  width: 600px;
+}
+
+.covertitle {
+  position: absolute;
+  color: white;
+  top: 40px;
+  left: 466px;
+  width: 30%;
+
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(172, 161, 138, 0.7);
+  padding: 20px 20px 21px 20px;
+}
+
+.titles {
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(172, 161, 138, 0.7);
+  padding: 20px 20px 10px 20px;
+  width: 40%;
+  left: 378px;
+  position: relative;
+  color: white;
+}
+.bookTitle {
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(172, 161, 138, 0.7);
+  padding: 20px 20px 20px 20px;
+  width: 40%;
+  left: 378px;
+  position: relative;
+  color: black;
+}
+.coverpic {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 0px 40px 0px 0px;
+  min-width: 852px;
+}
+
+.card-content {
+  display: inline-block;
+  padding: 24px;
+  width: 30%;
+  height: 30%;
+  max-width: 350px;
+  max-height: 100px;
+}

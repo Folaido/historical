@@ -1,0 +1,20 @@
+@import "~antd/dist/antd.css";
+
+
+.cards {
+    width: 30%; /* or whatever */
+    max-width: 300px;
+
+}
+
+.cardpic {
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.modalpic {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px 10px 10px 50px;
+}
