@@ -52,7 +52,7 @@ const Home = () => {
           </p>
           <p>Email or call to connect us</p>
           <p className="bold">nortonhistoricalsociety@verizon.net</p>
-          <p className="bold">(508)285-8300</p>
+          <p className="bold">(508)285-7070</p>
 
           <div className="card-holder">
             <a className="h-card card1" href="http://localhost:3000/visit">

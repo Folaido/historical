@@ -7,6 +7,7 @@ import Volunteer from "./components/Volunteer";
 import Membership from "./components/Membership";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Merchandise from "./components/Merchandise";
+import Towntour from "./components/Towntour";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/membership">
           <Membership />
+        </Route>
+        <Route path="/tour">
+          <Towntour />
         </Route>
       </Switch>
     </Router>

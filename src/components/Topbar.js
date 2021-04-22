@@ -13,11 +13,27 @@ const Topbar = () => {
         fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
       }}
     >
-      <Menu.Item key="Merchandise">
+      <Menu.Item>
         <a href="http://localhost:3000/merchandise">Store</a>
       </Menu.Item>
       <Menu.Item>
         <a href="http://localhost:3000/membership">Membership</a>
+      </Menu.Item>
+    </Menu>
+  );
+
+  const visit = (
+    <Menu
+      sytle={{
+        fontSize: "18px",
+        fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+      }}
+    >
+      <Menu.Item>
+        <a href="http://localhost:3000/visit">Mesuem</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="http://localhost:3000/tour">Town Tour</a>
       </Menu.Item>
     </Menu>
   );
@@ -30,7 +46,14 @@ const Topbar = () => {
 
         <div className="menu">
           <a href="http://localhost:3000/stories">Stories</a>
-          <a href="http://localhost:3000/visit">Visit</a>
+          <Dropdown
+            overlay={visit}
+            overlayStyle={{ fontSize: 18, color: "#fff" }}
+          >
+            <a onClick={(e) => e.preventDefault()}>
+              Visit <DownOutlined />
+            </a>
+          </Dropdown>
           <Dropdown
             overlay={support}
             overlayStyle={{ fontSize: 18, color: "#fff" }}
@@ -39,7 +62,7 @@ const Topbar = () => {
               Support <DownOutlined />
             </a>
           </Dropdown>
-          <a href="http://localhost:3000/about">About us</a>
+          <a href="http://localhost:3000/about">About</a>
           {/* <Menu
             style={{
               fontSize: "18px",

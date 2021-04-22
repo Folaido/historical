@@ -3,7 +3,6 @@ import Topbar from "./Topbar";
 import "../css/visit.css";
 import { Footer as Bottom } from "./Footer";
 import { Layout, Card, Divider } from "antd";
-import { Link } from "react-router-dom";
 import mesuem from "../assets/mesuem.jpg";
 
 const Visit = () => {
@@ -43,7 +42,7 @@ const Visit = () => {
           <p className="bold" style={{ display: "inline" }}>
             LOCATION:
           </p>
-          <p style={{ display: "inline" }}>26 East Main Street, Norton, MA</p>
+          <p style={{ display: "inline" }}>18 West Main Street, Norton, MA</p>
           <p>{"\n"}</p>
 
           <p className="bold" style={{ display: "inline" }}>
@@ -56,11 +55,11 @@ const Visit = () => {
 
           <p>{"\n"}</p>
 
-          <Link to="/">
+          <a href="/tour">
             <p style={{ color: "#431857", textDecoration: "underline" }}>
               Click here for our online exhibit
             </p>
-          </Link>
+          </a>
         </div>
       </Content>
       <Footer>
