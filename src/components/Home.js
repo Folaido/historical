@@ -38,7 +38,7 @@ const Home = () => {
           </div>
         </Carousel>
         <RightCircleOutlined className="next-btn" onClick={onNextClick} />
-        <div className="site-layout-content">
+        <div className="home-content">
           <h1>NORTON HISTORICAL SOCIETY</h1>
           <p>
             We are 501(c)(3) non-profit corporation dedicated to
@@ -51,7 +51,7 @@ const Home = () => {
             The Museum is current close due to COVID-19 pandemic
           </p>
           <p>Email or call to connect us</p>
-          <p className="bold">nortonhistorical@gmail.com</p>
+          <p className="bold">nortonhistoricalsociety@verizon.net</p>
           <p className="bold">(508)285-8300</p>
 
           <div className="card-holder">
@@ -61,7 +61,7 @@ const Home = () => {
                 <p>Visiting the Norton historical mesuem.</p>
               </div>
             </a>
-            <a className="h-card card2" href="http://localhost:3000/stories">
+            <a className="h-card card2" href="http://localhost:3000/merchandise">
               <h1>Support Norton History</h1>
               <div>
                 <p>

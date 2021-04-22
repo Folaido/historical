@@ -1,19 +1,46 @@
 import React from "react";
-import { Menu } from "antd";
+import { Menu, Dropdown } from "antd";
 import { Link } from "react-router-dom";
+import { DownOutlined } from "@ant-design/icons";
 import "../css/topbar.css";
 import logo from "../assets/logo.png";
 
-const Topbar = (props) => {
-  const { selectedKey } = props;
+const Topbar = () => {
+  const support = (
+    <Menu
+      sytle={{
+        fontSize: "18px",
+        fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+      }}
+    >
+      <Menu.Item key="Merchandise">
+        <a href="http://localhost:3000/merchandise">Store</a>
+      </Menu.Item>
+      <Menu.Item>
+        <a href="http://localhost:3000/membership">Membership</a>
+      </Menu.Item>
+    </Menu>
+  );
   return (
     <div className="topbar">
       <div className="header">
         <a href="http://localhost:3000" className="logo">
           <img src={logo} alt="Logo" />
         </a>
+
         <div className="menu">
-          <Menu
+          <a href="http://localhost:3000/stories">Stories</a>
+          <a href="http://localhost:3000/visit">Visit</a>
+          <Dropdown
+            overlay={support}
+            overlayStyle={{ fontSize: 18, color: "#fff" }}
+          >
+            <a onClick={(e) => e.preventDefault()}>
+              Support <DownOutlined />
+            </a>
+          </Dropdown>
+          <a href="http://localhost:3000/about">About us</a>
+          {/* <Menu
             style={{
               fontSize: "18px",
               fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
@@ -24,7 +51,6 @@ const Topbar = (props) => {
             selectedKeys={[selectedKey]}
             inlineIndent={24}
           >
-
             <Menu.Item key="Stories">
               <Link to="/stories">Stories</Link>
             </Menu.Item>
@@ -33,6 +59,7 @@ const Topbar = (props) => {
               <Link to="/visit">Visit</Link>
             </Menu.Item>
 
+            <Dropdown overlay={support}>Support</Dropdown>
             <Menu.Item key="Merchandise">
               <Link to="/merchandise">Merchandise</Link>
             </Menu.Item>
@@ -40,7 +67,7 @@ const Topbar = (props) => {
             <Menu.Item key="About">
               <Link to="/about">About Us</Link>
             </Menu.Item>
-          </Menu>
+          </Menu> */}
         </div>
       </div>
     </div>

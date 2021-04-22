@@ -1,15 +1,17 @@
 @import "~antd/dist/antd.css";
 .site-layout-content {
   min-height: 280px;
-  padding: 24px;
+   padding: 0px; 
+  
   background: #fff;
 }
 .text1 {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
-  width: 1000px;
+  /* width: 1000px; */
   padding: 10px;
   margin: 0 auto;
+  margin-right: 200px;
 }
 .subcat {
   text-align: center;
@@ -25,6 +27,7 @@
   align-items: center;
 }
 
+
 .header-1 {
   padding: 10px;
   text-align: left;
@@ -32,6 +35,19 @@
   color: white;
   font-size: 30px;
 }
+.oldNort {
+  width: 800px;
+  height: 400px;
+  margin: auto 0px;
+  border-radius: 25px;
+  margin-right: 777px;
+  background: rgba(255, 255, 255, 0.2);
+  
+  
+  
+}
+
+
 
 .pic {
   width: 200px;
@@ -53,4 +69,124 @@
 }
 img {
   max-width: 96.9%;
+}
+
+.VolCard{
+  font-size: 45px;
+}
+
+.flexbox-container2 {
+  
+  display: flex;
+  /* width:600px; */
+  margin: auto;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    
+    background: #fff;
+  }
+  .VolCard{
+    width: 250px;
+    font-size: 40px;
+  }
+  
+
+.site-layout-content p {
+  font-size: 12px;
+}
+
+
+  .flexbox-container2 {
+
+    
+    margin: auto;
+    flex-direction: column;
+  
+  
+    display: flex;
+    width: 340px;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+  .site-layout-content {
+    min-height: 280px;
+    padding: 12px;
+   
+  }
+
+  
+  .abouTitle{
+    text-align: center;
+    font-size: 35px;
+  }
+  .subcat1{
+    text-align: center;
+    font-size: 26px;
+
+  }
+
+  .text1 {
+    
+  
+  /* width: 1000px; */
+  
+  margin: 0 auto;
+  
+  width: 325px;
+  font-size: 12px;
+  text-align: left;
+}
+    
+  
+  .subcat {
+    text-align: center;
+    font-size:18px;
+  }
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  
+  .flexbox-container {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ant-row{
+   
+    width: 100%;
+   
+    
+    
+  }
+  
+  .header-1 {
+    padding: 10px;
+    text-align: left;
+    background-color: #0a387e;
+    color: white;
+    font-size: 30px;
+  }
+  
+  
+  
+  img {
+    max-width: 96.9%;
+  }
+
+  
 }

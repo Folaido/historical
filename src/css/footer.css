@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.logo-footer {
+  background-color: #f0f2f5;
+}
+
 .info {
   text-align: right;
 }

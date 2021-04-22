@@ -21,7 +21,7 @@
 }
 
 .logo {
-  width: 271px;
+  width: 270px;
   height: 120px;
   margin: 0;
   background: rgba(255, 255, 255, 0.2);
@@ -36,17 +36,26 @@
   margin: 0;
 }
 
-.ant-nmsl {
+.menu a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #000;
 }
 
-.ant-menu-horizontal {
-  border-bottom: none;
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   .logo {
     margin: auto;
+  }
+
+  .menu {
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

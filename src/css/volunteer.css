@@ -1,0 +1,97 @@
+.oldNort {
+
+
+    display: block;
+     margin: 30px auto;
+    border: 1px solid #000;
+  border-radius: 5%;
+  width: 750px;
+  max-height: 400px;
+    /* width: 800px;
+    height: 400px;
+    margin: auto 0px;
+    border-radius: 25px;
+    */
+    /* margin-right: 777px; */
+
+    background: rgba(255, 255, 255, 0.2);
+    
+   
+    
+  }
+ 
+  .text2 {
+    text-align: center;
+    font-size: 18px;
+    width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+  }  
+.title1{
+    
+    text-orientation: left;
+    font-size: 40px;
+}
+  @media only screen and (max-width: 768px) {
+
+    .text2 {
+        text-align: left;
+        font-size: 12px;
+        width: 325px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+
+    .title1{
+        text-align: center;
+        font-size: 35px;
+       
+
+    }
+    
+
+    .bodytext1 {
+    /* background-color: powderblue; */
+        
+        width: 325px;
+        
+      }  
+    
+    .oldNort {
+      width: 370px;
+      height:150px;
+    }
+  }
+  @media only screen and (max-width:480px) {
+
+    .text2 {
+
+
+
+        text-align: left;
+        font-size: 12px;
+        width: 325px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+
+    .title1{
+        text-align: center;
+        font-size: 35px;
+       
+
+    }
+    
+
+    .bodytext1 {
+    /* background-color: powderblue; */
+        
+        width: 325px;
+        
+      }  
+    
+    .oldNort {
+      width: 370px;
+      height:150px;
+    }
+  }
