@@ -39,7 +39,7 @@ class Home extends React.Component {
               gutter={16}
               style={{ justifyContent: "center", textAlign: "center" }}
             >
-              <Col span={5.5}>
+              <Col span={7.5}>
                 <Thing
                   name="Ruth Goold"
                   mtitle="Ruth Goold"
@@ -57,7 +57,7 @@ class Home extends React.Component {
                   <p> text about Ruth</p>
                 </Modal> */}
               </Col>
-              <Col span={5.5}>
+              <Col span={7.5}>
                 <Thing
                   name="Janice Burkhart"
                   mtitle="Janice Burkhart"
@@ -65,7 +65,7 @@ class Home extends React.Component {
                   image={janice}
                 />
               </Col>
-              <Col span={5.5}>
+              <Col span={7.5}>
                 <Thing
                   name="Bob Lanpher"
                   mtitle="Bob Lanpher"
@@ -75,6 +75,29 @@ class Home extends React.Component {
               </Col>
             </Row>
           </div>
+
+          <div><h2 className="subcat1"><b >Directors</b></h2>
+       <div className="site-card-wrapper">
+            
+            <Row gutter={16} style={{ justifyContent: "center", textAlign: "center" }}>
+              <Col span={6}>
+                <Thing name="Marshall Martin" mtitle="Marshall Martin" title="Director" image={logo} />
+
+                
+              </Col>
+              <Col span={6}>
+                <Thing name="Joe" mtitle="Joe" title="Director" image={logo} />
+              </Col>
+              <Col span={6}>
+              <Thing name="Christine Carmichael" mtitle="Christine Carmichael" title="Director" image={logo} />
+              </Col>
+              <Col span={6}>
+              <Thing name="Joyce Guild" mtitle="Joyce Guild" title="Director" image={logo} />
+              </Col>
+            </Row>
+          </div>
+       
+       </div>
 
           {/* <div className="site-layout-content"> */}
 

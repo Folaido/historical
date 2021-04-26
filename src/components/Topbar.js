@@ -30,7 +30,7 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <a href="http://localhost:3000/visit">Mesuem</a>
+        <a href="http://localhost:3000/visit">Museum</a>
       </Menu.Item>
       <Menu.Item>
         <a href="http://localhost:3000/tour">Town Tour</a>
