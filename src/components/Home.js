@@ -56,9 +56,9 @@ const Home = () => {
 
           <div className="card-holder">
             <a className="h-card card1" href="http://localhost:3000/visit">
-              <h1>Visit Norton Historical Mesuem</h1>
+              <h1>Visit Norton Historical Museum</h1>
               <div>
-                <p>Visiting the Norton historical mesuem.</p>
+                <p>Visiting the Norton historical museum.</p>
               </div>
             </a>
             <a className="h-card card2" href="http://localhost:3000/merchandise">
