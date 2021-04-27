@@ -6,6 +6,29 @@ import "../css/topbar.css";
 import logo from "../assets/logo.png";
 
 const Topbar = () => {
+  const merchandise = {
+    pathname: "/merchandise",
+    key: Math.random(),
+    state: {
+        applied: true
+      }
+  };
+  const membership = {
+    pathname: "/membership",
+    key: Math.random(),
+    state: {
+        applied: true
+      }
+  };
+//   const merchandise = {
+//     pathname: "/merchandise",
+//     key: Math.random(),
+//   };
+//   const merchandise = {
+//     pathname: "/merchandise",
+//     key: Math.random(),
+//   };
+
   const support = (
     <Menu
       sytle={{
@@ -14,10 +37,10 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <a href="/merchandise">Store</a>
+        <Link to={merchandise}>Store</Link>
       </Menu.Item>
       <Menu.Item>
-        <a href="/membership">Membership</a>
+        <Link to={membership}>Membership</Link>
       </Menu.Item>
     </Menu>
   );
