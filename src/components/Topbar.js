@@ -14,10 +14,10 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <a href="http://localhost:3000/merchandise">Store</a>
+        <a href="/merchandise">Store</a>
       </Menu.Item>
       <Menu.Item>
-        <a href="http://localhost:3000/membership">Membership</a>
+        <a href="/membership">Membership</a>
       </Menu.Item>
     </Menu>
   );
@@ -30,22 +30,22 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <a href="http://localhost:3000/visit">Museum</a>
+        <a href="/visit">Museum</a>
       </Menu.Item>
       <Menu.Item>
-        <a href="http://localhost:3000/tour">Town Tour</a>
+        <a href="/tour">Town Tour</a>
       </Menu.Item>
     </Menu>
   );
   return (
     <div className="topbar">
       <div className="header">
-        <a href="http://localhost:3000" className="logo">
+        <a href="/" className="logo">
           <img src={logo} alt="Logo" />
         </a>
 
         <div className="menu">
-          <a href="http://localhost:3000/stories">Stories</a>
+          <a href="/stories">Stories</a>
           <Dropdown
             overlay={visit}
             overlayStyle={{ fontSize: 18, color: "#fff" }}
@@ -62,7 +62,7 @@ const Topbar = () => {
               Support <DownOutlined />
             </a>
           </Dropdown>
-          <a href="http://localhost:3000/about">About</a>
+          <a href="/about">About</a>
           {/* <Menu
             style={{
               fontSize: "18px",

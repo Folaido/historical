@@ -55,13 +55,13 @@ const Home = () => {
           <p className="bold">(508)285-7070</p>
 
           <div className="card-holder">
-            <a className="h-card card1" href="http://localhost:3000/visit">
+            <a className="h-card card1" href="/visit">
               <h1>Visit Norton Historical Museum</h1>
               <div>
                 <p>Visiting the Norton historical museum.</p>
               </div>
             </a>
-            <a className="h-card card2" href="http://localhost:3000/merchandise">
+            <a className="h-card card2" href="/merchandise">
               <h1>Support Norton History</h1>
               <div>
                 <p>
@@ -70,7 +70,7 @@ const Home = () => {
                 </p>
               </div>
             </a>
-            <a className="h-card card3" href="http://localhost:3000/about">
+            <a className="h-card card3" href="/about">
               <h1>This Place in History</h1>
               <div>
                 <p>Exporing the history of the town.</p>
