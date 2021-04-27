@@ -13,6 +13,9 @@ import { Link } from "react-router-dom";
 const { Content, Footer } = Layout;
 
 class Home extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render = () => (
     <Layout className="layout">
       <head>
@@ -76,28 +79,50 @@ class Home extends React.Component {
             </Row>
           </div>
 
-          <div><h2 className="subcat1"><b >Directors</b></h2>
-       <div className="site-card-wrapper">
-            
-            <Row gutter={16} style={{ justifyContent: "center", textAlign: "center" }}>
-              <Col span={6}>
-                <Thing name="Marshall Martin" mtitle="Marshall Martin" title="Director" image={logo} />
-
-                
-              </Col>
-              <Col span={6}>
-                <Thing name="Joe" mtitle="Joe" title="Director" image={logo} />
-              </Col>
-              <Col span={6}>
-              <Thing name="Christine Carmichael" mtitle="Christine Carmichael" title="Director" image={logo} />
-              </Col>
-              <Col span={6}>
-              <Thing name="Joyce Guild" mtitle="Joyce Guild" title="Director" image={logo} />
-              </Col>
-            </Row>
+          <div>
+            <h2 className="subcat1">
+              <b>Directors</b>
+            </h2>
+            <div className="site-card-wrapper">
+              <Row
+                gutter={16}
+                style={{ justifyContent: "center", textAlign: "center" }}
+              >
+                <Col span={6}>
+                  <Thing
+                    name="Marshall Martin"
+                    mtitle="Marshall Martin"
+                    title="Director"
+                    image={logo}
+                  />
+                </Col>
+                <Col span={6}>
+                  <Thing
+                    name="Joe"
+                    mtitle="Joe"
+                    title="Director"
+                    image={logo}
+                  />
+                </Col>
+                <Col span={6}>
+                  <Thing
+                    name="Christine Carmichael"
+                    mtitle="Christine Carmichael"
+                    title="Director"
+                    image={logo}
+                  />
+                </Col>
+                <Col span={6}>
+                  <Thing
+                    name="Joyce Guild"
+                    mtitle="Joyce Guild"
+                    title="Director"
+                    image={logo}
+                  />
+                </Col>
+              </Row>
+            </div>
           </div>
-       
-       </div>
 
           {/* <div className="site-layout-content"> */}
 
@@ -177,7 +202,7 @@ class Home extends React.Component {
           <div className="flexbox-container2">
             {/* <Row gutter={16} style={{ justifyContent: "center", textAlign: "center" }}> */}
             {/* <Col span={6}> */}
-            <a href="http://localhost:3000/volunteer">
+            <Link to="/volunteer">
               <Card
                 className="VolCard"
                 hoverable
@@ -185,7 +210,7 @@ class Home extends React.Component {
                 bordered={false}
                 cover={<img src={logo} alt="Logo" />}
               ></Card>
-            </a>
+            </Link>
             {/* </Col>
                 <Col span={6}> */}
             <Card

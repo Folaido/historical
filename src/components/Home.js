@@ -1,15 +1,19 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Topbar from "./Topbar";
 import "../css/home.css";
 import { Footer as Bottom } from "./Footer";
 import { Layout, Carousel } from "antd";
 import { LeftCircleOutlined, RightCircleOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 import home1 from "../assets/home1.jpg";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
 import home4 from "../assets/home4.jpg";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { Content, Footer } = Layout;
   let carousel;
   const onPrevClick = () => {
@@ -41,8 +45,8 @@ const Home = () => {
         <div className="home-content">
           <h1>NORTON HISTORICAL SOCIETY</h1>
           <p>
-            We are 501(c)(3) non-profit corporation dedicated to
-            “preserving material relative to the history of Norton.”
+            We are 501(c)(3) non-profit corporation dedicated to “preserving
+            material relative to the history of Norton.”
           </p>
           <p className="bold" style={{ display: "inline" }}>
             Recent Update:{" "}
@@ -55,13 +59,13 @@ const Home = () => {
           <p className="bold">(508)285-7070</p>
 
           <div className="card-holder">
-            <a className="h-card card1" href="/visit">
+            <Link className="h-card card1" to="/visit">
               <h1>Visit Norton Historical Museum</h1>
               <div>
                 <p>Visiting the Norton historical museum.</p>
               </div>
-            </a>
-            <a className="h-card card2" href="/merchandise">
+            </Link>
+            <Link className="h-card card2" to="/merchandise">
               <h1>Support Norton History</h1>
               <div>
                 <p>
@@ -69,13 +73,13 @@ const Home = () => {
                   advance our mission.
                 </p>
               </div>
-            </a>
-            <a className="h-card card3" href="/about">
+            </Link>
+            <Link className="h-card card3" to="/about">
               <h1>This Place in History</h1>
               <div>
                 <p>Exporing the history of the town.</p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </Content>

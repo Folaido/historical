@@ -8,6 +8,9 @@ import { Divider, Card, Row, Col } from "antd";
 const { Content, Footer } = Layout;
 
 class Home extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render = () => (
     <Layout className="layout">
       <Topbar selectedKey={"About"} />

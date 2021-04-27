@@ -64,6 +64,9 @@ const contentStyle = {
 };
 
 class Towntour extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   constructor(props) {
     super(props);
     this.setState = {

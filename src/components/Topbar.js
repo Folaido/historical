@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import { Menu, Dropdown } from "antd";
 import { Link } from "react-router-dom";
 import { DownOutlined } from "@ant-design/icons";
@@ -6,29 +6,6 @@ import "../css/topbar.css";
 import logo from "../assets/logo.png";
 
 const Topbar = () => {
-  const merchandise = {
-    pathname: "/merchandise",
-    key: Math.random(),
-    state: {
-      applied: true,
-    },
-  };
-  const membership = {
-    pathname: "/membership",
-    key: Math.random(),
-    state: {
-      applied: true,
-    },
-  };
-  //   const merchandise = {
-  //     pathname: "/merchandise",
-  //     key: Math.random(),
-  //   };
-  //   const merchandise = {
-  //     pathname: "/merchandise",
-  //     key: Math.random(),
-  //   };
-
   const support = (
     <Menu
       sytle={{
@@ -37,10 +14,10 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <Link to={merchandise}>Store</Link>
+        <Link to="/merchandise">Store</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to={membership}>Membership</Link>
+        <Link to="/membership">Membership</Link>
       </Menu.Item>
     </Menu>
   );
@@ -53,22 +30,22 @@ const Topbar = () => {
       }}
     >
       <Menu.Item>
-        <a href="/visit">Museum</a>
+        <Link to="/visit">Museum</Link>
       </Menu.Item>
       <Menu.Item>
-        <a href="/tour">Town Tour</a>
+        <Link to="/tour">Town Tour</Link>
       </Menu.Item>
     </Menu>
   );
   return (
     <div className="topbar">
       <div className="header">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           <img src={logo} alt="Logo" />
-        </a>
+        </Link>
 
         <div className="menu">
-          <a href="/stories">Stories</a>
+          <Link to="/stories">Stories</Link>
           <Dropdown
             overlay={visit}
             overlayStyle={{ fontSize: 18, color: "#fff" }}
@@ -85,7 +62,7 @@ const Topbar = () => {
               Support <DownOutlined />
             </a>
           </Dropdown>
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
           {/* <Menu
             style={{
               fontSize: "18px",

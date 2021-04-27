@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Topbar from "./Topbar";
 import "../css/visit.css";
 import { Footer as Bottom } from "./Footer";
@@ -6,6 +6,9 @@ import { Layout, Card, Divider } from "antd";
 import mesuem from "../assets/mesuem.jpg";
 
 const Visit = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { Content, Footer } = Layout;
   return (
     <Layout className="layout">
