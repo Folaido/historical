@@ -11,7 +11,7 @@ import Towntour from "./components/Towntour";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/nhs">
       <Switch>
         <Route exact path="/">
           <Home />
