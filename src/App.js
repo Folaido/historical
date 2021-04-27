@@ -5,7 +5,7 @@ import Stories from "./components/Stories";
 import Visit from "./components/Visit";
 import Volunteer from "./components/Volunteer";
 import Membership from "./components/Membership";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Merchandise from "./components/Merchandise";
 import Towntour from "./components/Towntour";
 
