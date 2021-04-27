@@ -2,6 +2,7 @@
   "name": "historical",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cs.wheatoncollege.edu/nhs",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@testing-library/jest-dom": "^5.11.9",

@@ -10,24 +10,24 @@ const Topbar = () => {
     pathname: "/merchandise",
     key: Math.random(),
     state: {
-        applied: true
-      }
+      applied: true,
+    },
   };
   const membership = {
     pathname: "/membership",
     key: Math.random(),
     state: {
-        applied: true
-      }
+      applied: true,
+    },
   };
-//   const merchandise = {
-//     pathname: "/merchandise",
-//     key: Math.random(),
-//   };
-//   const merchandise = {
-//     pathname: "/merchandise",
-//     key: Math.random(),
-//   };
+  //   const merchandise = {
+  //     pathname: "/merchandise",
+  //     key: Math.random(),
+  //   };
+  //   const merchandise = {
+  //     pathname: "/merchandise",
+  //     key: Math.random(),
+  //   };
 
   const support = (
     <Menu
