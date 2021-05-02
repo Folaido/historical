@@ -22,12 +22,13 @@ function Thing(props) {
   return (
     <>
       <Card
-        hoverable
+        //hoverable
+        bordered
         style={{ width: 250, fontSize: 22 }}
         title={<Title level={4}>{props.title}</Title>}
-        onClick={showModal}
+        //onClick={showModal}
         bordered={false}
-        cover={<img src={props.image} alt="Logo" />}
+        cover={<img src={props.image} alt="Logo" width="245" height="300"  />}
       >
         <p>{props.name}</p>
       </Card>

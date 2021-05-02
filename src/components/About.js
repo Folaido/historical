@@ -199,6 +199,11 @@ class Home extends React.Component {
             place where they will be available to all those interested in Norton
             History.
           </p>
+          <br />
+          <div classname="names" >
+            <p className="text1"> <b>The NHS website was refactored in 2021 by:</b> Ziran Fei, Natalie Laliberte, James Stratton, and Nate Lichauco</p>
+          </div>
+
           <div className="flexbox-container2">
             {/* <Row gutter={16} style={{ justifyContent: "center", textAlign: "center" }}> */}
             {/* <Col span={6}> */}
@@ -213,12 +218,15 @@ class Home extends React.Component {
             </Link>
             {/* </Col>
                 <Col span={6}> */}
-            <Card
-              hoverable
-              title="Staff & Board of Directors"
-              bordered={false}
-              cover={<img src={logo} alt="Logo" className="VolCard" />}
-            ></Card>
+            <Link to="/gallery">
+              <Card
+
+                hoverable
+                title="Staff & Board of Directors"
+                bordered={false}
+                cover={<img src={logo} alt="Logo" className="VolCard" />}
+              ></Card>
+            </Link>
             {/* </Col> */}
             {/* </Row> */}
 

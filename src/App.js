@@ -8,7 +8,8 @@ import Membership from "./components/Membership";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Merchandise from "./components/Merchandise";
 import Towntour from "./components/Towntour";
-
+import PictureGallery from "./components/PictureGallery";
+import CampMyles from "./components/CampMyles";
 function App() {
   return (
     <Router basename="/nhs">
@@ -36,6 +37,12 @@ function App() {
         </Route>
         <Route path="/tour">
           <Towntour />
+        </Route>
+        <Route path="/gallery">
+          <PictureGallery />
+        </Route>
+        <Route path="/CampMS">
+          <CampMyles />
         </Route>
       </Switch>
     </Router>
