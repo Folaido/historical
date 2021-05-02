@@ -10,6 +10,7 @@ import Merchandise from "./components/Merchandise";
 import Towntour from "./components/Towntour";
 import PictureGallery from "./components/PictureGallery";
 import CampMyles from "./components/CampMyles";
+import WW2 from "./components/WW2"
 function App() {
   return (
     <Router basename="/nhs">
@@ -43,6 +44,9 @@ function App() {
         </Route>
         <Route path="/CampMS">
           <CampMyles />
+        </Route>
+        <Route path="/WW2">
+          <WW2 />
         </Route>
       </Switch>
     </Router>

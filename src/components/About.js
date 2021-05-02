@@ -28,9 +28,10 @@ class Home extends React.Component {
 
       <Content>
         <div className="content">
-          <Divider plain orientation="left" style={{ fontSize: 40 }}>
-            {" "}
-            <b className="abouTitle">ABOUT US</b>
+          <Divider plain orientation="left" style={{ borderColor: '#7cb305', fontSize: 40, borderWidth: 20}}>
+          {" "}
+          <b className="abouTitle" >ABOUT US</b>
+         
           </Divider>
 
           <h2 className="subcat1">
@@ -38,8 +39,8 @@ class Home extends React.Component {
           </h2>
 
           <div className="site-card-wrapper">
-            <Row
-              gutter={16}
+            <Row 
+              gutter={16,8}
               style={{ justifyContent: "center", textAlign: "center" }}
             >
               <Col span={7.5}>
@@ -76,6 +77,7 @@ class Home extends React.Component {
                   image={bob}
                 />
               </Col>
+
             </Row>
           </div>
 
@@ -84,11 +86,11 @@ class Home extends React.Component {
               <b>Directors</b>
             </h2>
             <div className="site-card-wrapper">
-              <Row
-                gutter={16}
+              <Row 
+                gutter={16,8}
                 style={{ justifyContent: "center", textAlign: "center" }}
               >
-                <Col span={6}>
+                <Col span={7.5}>
                   <Thing
                     name="Marshall Martin"
                     mtitle="Marshall Martin"
@@ -96,7 +98,7 @@ class Home extends React.Component {
                     image={logo}
                   />
                 </Col>
-                <Col span={6}>
+                <Col span={7.5}>
                   <Thing
                     name="Joe"
                     mtitle="Joe"
@@ -104,7 +106,7 @@ class Home extends React.Component {
                     image={logo}
                   />
                 </Col>
-                <Col span={6}>
+                <Col span={7.5}>
                   <Thing
                     name="Christine Carmichael"
                     mtitle="Christine Carmichael"
@@ -112,10 +114,18 @@ class Home extends React.Component {
                     image={logo}
                   />
                 </Col>
-                <Col span={6}>
+                <Col span={7.5}>
                   <Thing
                     name="Joyce Guild"
                     mtitle="Joyce Guild"
+                    title="Director"
+                    image={logo}
+                  />
+                </Col>
+                <Col span={7.5}>
+                  <Thing
+                    name="George Yelle"
+                    mtitle="George Yelle"
                     title="Director"
                     image={logo}
                   />
