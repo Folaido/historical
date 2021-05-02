@@ -28,7 +28,7 @@ function Thing(props) {
         title={<Title level={4}>{props.title}</Title>}
         //onClick={showModal}
         bordered={false}
-        cover={<img src={props.image} alt="Logo" width="245" height="300"  />}
+        cover={<img src={props.image} alt="Logo"  height="300"  />}
       >
         <p>{props.name}</p>
       </Card>

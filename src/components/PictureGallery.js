@@ -44,10 +44,12 @@ class Home extends React.Component {
                             </Col>
 
                             <Col span={12} >
+                                <Link to="/WW2">
                                 <ThingPic
                                     title="WW2 Homecoming"
                                     image={welcomeww2}
                                 />
+                                </Link>
                             </Col>
 
 
