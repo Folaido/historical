@@ -9,6 +9,7 @@ import home1 from "../assets/home1.jpg";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
 import home4 from "../assets/home4.jpg";
+import pdf from "../assets/04-27-2021.pdf";
 
 const Home = () => {
   useEffect(() => {
@@ -52,11 +53,28 @@ const Home = () => {
             Recent Update:{" "}
           </p>
           <p style={{ display: "inline" }}>
-            The Museum is current close due to COVID-19 pandemic
+            The Museum is current close due to COVID-19 pandemic.
           </p>
-          <p>Email or call to connect us</p>
-          <p className="bold">nortonhistoricalsociety@verizon.net</p>
+          <p>{"\n"}</p>
+          <p style={{ display: "inline" }}>Email or call to connect us:</p>
+          <br />
+          <p className="bold" style={{ display: "inline" }}>nortonhistoricalsociety@verizon.net</p>
           <p className="bold">(508)285-7070</p>
+
+          <div className="news-card">
+            <div className="n-card-left">
+              <h1>Newsletter</h1>
+              <p>
+                Stay in touch with NHS! These Newsletters contains all recent
+                trends and news about the society
+              </p>
+            </div>
+            <div className="n-card-right">
+              <a href={pdf} target="_blank">
+                April 27, 2021
+              </a>
+            </div>
+          </div>
 
           <div className="card-holder">
             <Link className="h-card card1" to="/visit">
@@ -74,7 +92,7 @@ const Home = () => {
                 </p>
               </div>
             </Link>
-            <Link className="h-card card3" to="/about">
+            <Link className="h-card card3" to="/tour">
               <h1>This Place in History</h1>
               <div>
                 <p>Exporing the history of the town.</p>

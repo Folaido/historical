@@ -1,6 +1,7 @@
 import { React, useEffect } from "react";
 import Topbar from "./Topbar";
 import "../css/visit.css";
+import { Link } from "react-router-dom";
 import { Footer as Bottom } from "./Footer";
 import { Layout, Card, Divider } from "antd";
 import mesuem from "../assets/mesuem.jpg";
@@ -27,25 +28,22 @@ const Visit = () => {
             NORMAL HOURS:
           </p>
           <p>
-            Wednesday 9:00 a.m. - 12:00 a.m., Wednesday 7:00 p.m. - 9:00 p.m.{" "}
+            Monday 10a.m. - 2p.m.
             <br />
             It is suggested you call (508)285-7070 to be sure it is open.
             Research assistance is available in the fields of genealogy and
             local history. Education programs are provided for school groups.
           </p>
+          <p>{"\n"}</p>
           <p className="bold" style={{ display: "inline" }}>
             ADMISSION:
           </p>
-          <ul>
-            <li>Adults: $7</li>
-            <li>Families: $20</li>
-            <li>Seniors, students, children: $5</li>
-            <li>Members and children under 6: Free</li>
-          </ul>
+          <p>Free and open to public</p>
+          <p>{"\n"}</p>
           <p className="bold" style={{ display: "inline" }}>
             LOCATION:
           </p>
-          <p style={{ display: "inline" }}>18 West Main Street, Norton, MA</p>
+          <p>18 West Main Street, Norton, MA</p>
           <p>{"\n"}</p>
 
           <p className="bold" style={{ display: "inline" }}>
@@ -53,16 +51,18 @@ const Visit = () => {
           </p>
           <ul>
             <li>(508)285-7070</li>
-            <li>nortonhistorical@gmail.com</li>
+            <li>nortonhistoricalsociety@verizon.net</li>
+            <li>
+              <a href="http://www.facebook.com/NortonMAHistoricalSociety">
+                Facebok Account
+              </a>
+            </li>
           </ul>
-
-          <p>{"\n"}</p>
-
-          <a href="/tour">
+          <Link to="/tour">
             <p style={{ color: "#431857", textDecoration: "underline" }}>
               Click here for our online exhibit
             </p>
-          </a>
+          </Link>
         </div>
       </Content>
       <Footer>

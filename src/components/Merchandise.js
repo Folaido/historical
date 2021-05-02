@@ -54,7 +54,7 @@ class Merchandise extends React.Component {
             <div className="book-content">
               <h1 className="title">Featured Item: Images of Norton Book</h1>
               <p>George A. Yelle and Ruth E. Goold</p>
-              <p>$15.00</p>
+              <p>$21.99</p>
               <a
                 href="https://www.amazon.com/Norton-Massachusetts-George-Yelle/dp/0738502642/"
                 target="_blank"

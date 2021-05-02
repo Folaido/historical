@@ -33,19 +33,19 @@
   position: absolute;
   top: 60%;
   z-index: 100;
-  font-size: 48px;
+  font-size: 36px;
   padding: 20px;
-  color: #431857;
+  color: #000;
 }
 
 .next-btn {
   position: absolute;
   top: 60%;
   z-index: 100;
-  font-size: 48px;
+  font-size: 36px;
   right: 0;
   padding: 20px;
-  color: #431857;
+  color: #000;
 }
 
 .carousel img {
@@ -131,6 +131,42 @@
 
 .card3 {
   background-image: url("../assets/Original_Chair.jpg");
+}
+
+.news-card {
+  width: 70%;
+  margin: 40px auto;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+}
+
+.n-card-left {
+  width: 50%;
+  background-color: #622b7c;
+  padding: 30px;
+  color: #fff;
+}
+
+.n-card-right {
+  padding: 30px;
+}
+
+.n-card-right a {
+    font-size: 20px;
+}
+
+.n-card-left h1 {
+  margin: auto;
+  color: #fff;
+}
+
+.n-card-left p {
+  margin: auto;
+  margin-top: 30px;
+  bottom: 0;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {

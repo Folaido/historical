@@ -3,7 +3,6 @@ import Topbar from "./Topbar";
 import "../css/visit.css";
 import { Footer as Bottom } from "./Footer";
 import { Layout, Card, Divider } from "antd";
-import mesuem from "../assets/mesuem.jpg";
 import pdf from "../assets/Membership.pdf";
 
 const Membership = () => {
@@ -42,17 +41,9 @@ const Membership = () => {
           </p>
           <p className="bold">Member Benefits</p>
           <ul>
-            <li>
-              Unlimited free admission to the Museum, History Center, and Leahy
-              Library
-            </li>
-            <li>15% discount at the museum store and online</li>
-            <li>Discounts on programs and workshops</li>
-            <li>
-              Subscription to semi-annual Vermont History journal and History
-              Connections newsletter
-            </li>
-            <li>Voting privileges at the Annual Meeting</li>
+            <li>Visit mesuem at anytime</li>
+            <li>Attend lectures and speaks held by the society</li>
+            <li>Help perserving the history of Norton!!</li>
           </ul>
           <p>
             If you want to join membership, please fill out a{" "}
@@ -64,9 +55,9 @@ const Membership = () => {
           <p>
             Norton Historical Society
             <br />
-            18 West Main St.
-            <br />
             P.O. Box 1711
+            <br />
+            18 West Main St.
             <br />
             Norton, MA 02766
           </p>
