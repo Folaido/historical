@@ -136,7 +136,7 @@
 .news-card {
   width: 70%;
   margin: 40px auto;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   flex-direction: row;
   border: 1px solid #000;
@@ -154,7 +154,7 @@
 }
 
 .n-card-right a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .n-card-left h1 {
@@ -170,18 +170,18 @@
 }
 
 .n-card-right {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-content: flex-start;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
 }
 
 .n-card-right a {
-    display: block;
-    margin-left: 30px;
-    margin-top: 20px;
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 @media only screen and (max-width: 768px) {
   .home-content {
@@ -223,5 +223,31 @@
 
   .h-card:hover {
     transform: none;
+  }
+
+  .news-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .n-card-left {
+    width: 100%;
+  }
+
+  .n-card-left h1 {
+    color: #fff;
+  }
+
+  .n-card-right {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .n-card-right a {
+    font-size: 16px;
+    margin: 5px 0px;
   }
 }

@@ -43,10 +43,10 @@ function Thing(props) {
         onCancel={handleCancel}
         footer={null}
       >
-        <div>
+        <div className="modal">
           <img className="modalpic" src={props.modImage}></img>
+          <p>{props.content}</p>
         </div>
-        <p>{props.content}</p>
       </Modal>
     </>
   );
