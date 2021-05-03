@@ -28,7 +28,7 @@ class Home extends React.Component {
 
       <Content>
         <div className="content">
-          <Divider plain orientation="left" style={{ borderColor: '#7cb305', fontSize: 40, borderWidth: 20}}>
+          <Divider plain orientation="left" style={{ fontSize: 40 }}>
           {" "}
           <b className="abouTitle" >ABOUT US</b>
          

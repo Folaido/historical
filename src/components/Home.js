@@ -10,6 +10,10 @@ import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
 import home4 from "../assets/home4.jpg";
 import pdf from "../assets/04-27-2021.pdf";
+import pdf1 from "../assets/05-21-2013.pdf";
+import pdf2 from "../assets/09-18-2012.pdf";
+import pdf3 from "../assets/01-17-2012.pdf";
+import pdf4 from "../assets/11-15-2011.pdf";
 
 const Home = () => {
   useEffect(() => {
@@ -58,7 +62,9 @@ const Home = () => {
           <p>{"\n"}</p>
           <p style={{ display: "inline" }}>Email or call to connect us:</p>
           <br />
-          <p className="bold" style={{ display: "inline" }}>nortonhistoricalsociety@verizon.net</p>
+          <p className="bold" style={{ display: "inline" }}>
+            nortonhistoricalsociety@verizon.net
+          </p>
           <p className="bold">(508)285-7070</p>
 
           <div className="news-card">
@@ -72,6 +78,18 @@ const Home = () => {
             <div className="n-card-right">
               <a href={pdf} target="_blank">
                 April 27, 2021
+              </a>
+              <a href={pdf1} target="_blank">
+                May 21, 2013
+              </a>
+              <a href={pdf2} target="_blank">
+                September 18, 2012
+              </a>
+              <a href={pdf3} target="_blank">
+                January 27, 2012
+              </a>
+              <a href={pdf4} target="_blank">
+                November 15, 2011
               </a>
             </div>
           </div>

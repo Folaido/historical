@@ -35,6 +35,9 @@ const Topbar = () => {
       <Menu.Item>
         <Link to="/tour">Town Tour</Link>
       </Menu.Item>
+      <Menu.Item>
+        <Link to="/gallery">Exhibition</Link>
+      </Menu.Item>
     </Menu>
   );
   return (
