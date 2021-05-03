@@ -58,7 +58,7 @@ const Visit = () => {
               </a>
             </li>
           </ul>
-          <Link to="/tour">
+          <Link to="/gallery">
             <p style={{ color: "#431857", textDecoration: "underline" }}>
               Click here for our online exhibit
             </p>

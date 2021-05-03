@@ -29,9 +29,8 @@ class Home extends React.Component {
       <Content>
         <div className="content">
           <Divider plain orientation="left" style={{ fontSize: 40 }}>
-          {" "}
-          <b className="abouTitle" >ABOUT US</b>
-         
+            {" "}
+            <b className="abouTitle">ABOUT US</b>
           </Divider>
 
           <h2 className="subcat1">
@@ -39,8 +38,8 @@ class Home extends React.Component {
           </h2>
 
           <div className="site-card-wrapper">
-            <Row 
-              gutter={16,8}
+            <Row
+              gutter={(16, 8)}
               style={{ justifyContent: "center", textAlign: "center" }}
             >
               <Col span={7.5}>
@@ -77,7 +76,6 @@ class Home extends React.Component {
                   image={bob}
                 />
               </Col>
-
             </Row>
           </div>
 
@@ -86,8 +84,8 @@ class Home extends React.Component {
               <b>Directors</b>
             </h2>
             <div className="site-card-wrapper">
-              <Row 
-                gutter={16,8}
+              <Row
+                gutter={(16, 8)}
                 style={{ justifyContent: "center", textAlign: "center" }}
               >
                 <Col span={7.5}>
@@ -210,47 +208,13 @@ class Home extends React.Component {
             History.
           </p>
           <br />
-          <div classname="names" >
-            <p className="text1"> <b>The NHS website was refactored in 2021 by:</b> Ziran Fei, Natalie Laliberte, James Stratton, and Nate Lichauco</p>
+          <div classname="names">
+            <p className="text1">
+              {" "}
+              <b>The NHS website was refactored in 2021 by:</b> Ziran Fei,
+              Natalie Laliberte, James Stratton, and Nate Lichauco
+            </p>
           </div>
-
-          <div className="flexbox-container2">
-            {/* <Row gutter={16} style={{ justifyContent: "center", textAlign: "center" }}> */}
-            {/* <Col span={6}> */}
-            <Link to="/volunteer">
-              <Card
-                className="VolCard"
-                hoverable
-                title="Volunteer"
-                bordered={false}
-                cover={<img src={logo} alt="Logo" />}
-              ></Card>
-            </Link>
-            {/* </Col>
-                <Col span={6}> */}
-            <Link to="/gallery">
-              <Card
-
-                hoverable
-                title="Staff & Board of Directors"
-                bordered={false}
-                cover={<img src={logo} alt="Logo" className="VolCard" />}
-              ></Card>
-            </Link>
-            {/* </Col> */}
-            {/* </Row> */}
-
-            {/* </div> */}
-          </div>
-          {/*             
-            <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-4">
-                <p Align="center"><b>NHS Founders Statement</b></p>
-            </div>
-             
-
-        </div>
-        */}
         </div>
       </Content>
 

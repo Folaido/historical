@@ -19,6 +19,9 @@ const Topbar = () => {
       <Menu.Item>
         <Link to="/membership">Membership</Link>
       </Menu.Item>
+      <Menu.Item>
+        <Link to="/volunteer">Volunteer</Link>
+      </Menu.Item>
     </Menu>
   );
 
