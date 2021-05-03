@@ -84,8 +84,8 @@ class Towntour extends React.Component {
             <b>TOWN TOUR</b>
           </Divider>
           <Row justify="center" align="top">
-            {/* gutter={[4, 16]} */}
-            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            
+            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6"  >
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -104,6 +104,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
+            
             <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
               <div className="card-content">
                 <Thing
@@ -223,6 +224,7 @@ class Towntour extends React.Component {
               Great Rocky Hill."
                 />
               </div>
+            
             </Col>
             <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
               <div className="card-content">

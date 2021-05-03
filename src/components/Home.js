@@ -57,10 +57,10 @@ const Home = () => {
             Recent Update:{" "}
           </p>
           <p style={{ display: "inline" }}>
-            The Museum is current close due to COVID-19 pandemic.
+            The Museum is currently closed due to the COVID-19 pandemic.
           </p>
           <p>{"\n"}</p>
-          <p style={{ display: "inline" }}>Email or call to connect us:</p>
+          <p style={{ display: "inline" }}>Email or call to get in contact with us:</p>
           <br />
           <p className="bold" style={{ display: "inline" }}>
             nortonhistoricalsociety@verizon.net
@@ -71,7 +71,7 @@ const Home = () => {
             <div className="n-card-left">
               <h1>Newsletter</h1>
               <p>
-                Stay in touch with NHS! These Newsletters contains all recent
+                Stay in touch with NHS! These Newsletters contain all recent
                 trends and news about the society
               </p>
             </div>

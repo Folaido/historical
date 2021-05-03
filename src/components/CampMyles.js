@@ -81,7 +81,7 @@ import pic69 from "../assets/CampMyles/Taunton MA Bay St. 1992.jpg";
 import pic70 from "../assets/CampMyles/Tauton MA Reuion.jpg";
 import pic71 from "../assets/CampMyles/The End.jpg";
 import pic72 from "../assets/CampMyles/WWII Camp spurrd lasting memories for many.jpg";
-
+import pic0 from "../assets/CampMS.jpg"
 const { Content, Footer } = Layout;
 
 class CampMyles extends React.Component {
@@ -107,6 +107,9 @@ class CampMyles extends React.Component {
 
           <div>
             <Row gutter={[8, 16]}>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={7.5} xl={12} xxl={12}>
+                <Image style={{ height: 400 }} src={pic0} />
+              </Col>
               <Col xs={7.5} sm={7.5} md={7.5} lg={7.5} xl={12} xxl={12}>
                 <Image style={{ height: 400 }} src={pic28} />
               </Col>
