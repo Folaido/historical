@@ -44,7 +44,7 @@ function Thing(props) {
         footer={null}
       >
         <div className="modal">
-          <img className="modalpic" src={props.modImage}></img>
+          <img className="modalpic1" src={props.modImage}></img>
           <p>{props.content}</p>
         </div>
       </Modal>
