@@ -28,7 +28,7 @@ const Visit = () => {
             NORMAL HOURS:
           </p>
           <p>
-            Monday 10a.m. - 2p.m.
+            Monday 10 a.m. - 2 p.m.
             <br />
             It is suggested you call (508)285-7070 to be sure it is open.
             Research assistance is available in the fields of genealogy and

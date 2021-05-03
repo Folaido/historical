@@ -22,13 +22,13 @@ function ThingPic(props) {
   return (
     <>
       <Card
-        hoverable
-        bordered
+        hoverable={true}
+        //bordered
         style={{ fontSize: 26 }}
         title={<Title level={4}>{props.title}</Title>}
         //link
         onClick={showModal}
-        bordered={true}
+        bordered={false}
         cover={<img src={props.image} alt="Logo"  />}
       >
         

@@ -209,7 +209,7 @@ class Home extends React.Component {
           </p>
           <br />
           <div classname="names">
-            <p className="text1">
+            <p className="text3" style={{fontSize:"12px"}}>
               {" "}
               <b>The NHS website was refactored in 2021 by:</b> Ziran Fei,
               Natalie Laliberte, James Stratton, and Nate Lichauco

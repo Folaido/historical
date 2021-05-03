@@ -33,7 +33,7 @@ class Home extends React.Component {
                     <div>
 
                         <Row gutter={[8, 16]}>
-                            <Col span={12} >
+                            <Col xs={24} sm={24} md={12} lg={12}xl={12} xxl={12} >
                                 <Link to="/CampMS">
 
                                     <ThingPic
@@ -43,7 +43,7 @@ class Home extends React.Component {
                                 </Link>
                             </Col>
 
-                            <Col span={12} >
+                            <Col xs={24} sm={24} md={12} lg={12}xl={12} xxl={12} >
                                 <Link to="/WW2">
                                 <ThingPic
                                     title="WW2 Homecoming"

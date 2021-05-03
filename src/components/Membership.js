@@ -20,9 +20,9 @@ const Membership = () => {
           </Divider>
           <p>
             The Society was founded in 1960 in time to celebrate the town's
-            250th anniversary in 1961. The founders stated the objects of the
-            Society were the collecting of facts and material relative to the
-            history of Norton and encouragement of any cultural activities.
+            250th anniversary in 1961. The founders stated the objective of the
+            Society is to collect all artifacts and materials related to the
+            history of Norton and encourage any cultural activities.
           </p>
           <p>
             In the early 1970's the District 3 Schoolhouse was moved to its
@@ -41,12 +41,12 @@ const Membership = () => {
           </p>
           <p className="bold">Member Benefits</p>
           <ul>
-            <li>Visit mesuem at anytime</li>
-            <li>Attend lectures and speaks held by the society</li>
-            <li>Help perserving the history of Norton!!</li>
+            <li>Visit museum at anytime during our hours of operation</li>
+            <li>Attend lectures and talks held by the society</li>
+            <li>Being a part of the preservation of Nortons rich history!!!</li>
           </ul>
           <p>
-            If you want to join membership, please fill out a{" "}
+            To become a member, please fill out a{" "}
             <a href={pdf} target="_blank">
               form
             </a>{" "}
