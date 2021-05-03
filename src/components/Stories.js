@@ -41,7 +41,7 @@ class Stories extends React.Component {
           <Divider plain orientation="left" style={{ fontSize: 40 }}>
             <b>STORIES</b>
           </Divider>
-          <Row gutter={32} justify="center" style={{ textAlign: "center" }}>
+          <Row gutter={32} justify="center" style={{ textAlign: "center", justifyContent: "center" }}>
             <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <Thing
                 name="something style"

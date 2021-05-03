@@ -17,3 +17,9 @@
   max-height: 400px;
   padding: 10px 10px 10px 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .modalpic {
+    width: 250px;
+  }
+}

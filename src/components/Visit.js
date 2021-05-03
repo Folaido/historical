@@ -54,7 +54,7 @@ const Visit = () => {
             <li>nortonhistoricalsociety@verizon.net</li>
             <li>
               <a href="http://www.facebook.com/NortonMAHistoricalSociety">
-                Facebok Account
+                Facebook Account
               </a>
             </li>
           </ul>

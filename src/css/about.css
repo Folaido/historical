@@ -1,8 +1,8 @@
 @import "~antd/dist/antd.css";
 .site-layout-content {
   min-height: 280px;
-   padding: 0px; 
-  
+  padding: 0px;
+
   background: #fff;
 }
 .text1 {
@@ -28,7 +28,6 @@
   align-items: center;
 }
 
-
 .header-1 {
   padding: 10px;
   text-align: left;
@@ -43,13 +42,9 @@
   border-radius: 25px;
   margin-right: 777px;
   background: rgba(255, 255, 255, 0.2);
-  
-  
-  
 }
 
-
-.directorRow{
+.directorRow {
   justify-content: center;
   text-align: center;
 }
@@ -76,12 +71,11 @@ img {
   max-width: 96.9%;
 }
 
-.VolCard{
+.VolCard {
   font-size: 45px;
 }
 
 .flexbox-container2 {
-  
   display: flex;
   /* width:600px; */
   margin: auto;
@@ -91,41 +85,33 @@ img {
   align-items: center;
 }
 
-
-
-
 @media only screen and (max-width: 768px) {
   .site-layout-content {
     min-height: 280px;
     padding: 24px;
-    
+
     background: #fff;
   }
-  .directorRow{
+  .directorRow {
     justify-content: center;
     text-align: center;
   }
-  .VolCard{
+  .VolCard {
     width: 250px;
     font-size: 40px;
   }
-  
 
-.site-layout-content p {
-  font-size: 12px;
-}
-
+  .site-layout-content p {
+    font-size: 12px;
+  }
 
   .flexbox-container2 {
-
-    
     margin: auto;
     flex-direction: column;
-  
-  
+
     display: flex;
     width: 340px;
-    
+
     justify-content: center;
     align-items: center;
   }
@@ -133,41 +119,35 @@ img {
   .site-layout-content {
     min-height: 280px;
     padding: 12px;
-   
   }
 
-  
-  .abouTitle{
+  .abouTitle {
     text-align: center;
     font-size: 35px;
   }
-  .subcat1{
+  .subcat1 {
     text-align: center;
     font-size: 26px;
-
   }
 
   .text1 {
-    
-  
-  /* width: 1000px; */
-  
-  margin: 0 auto;
-  
-  width: 325px;
-  font-size: 12px;
-  text-align: left;
-}
-    
-  
+    /* width: 1000px; */
+
+    margin: 0 auto;
+
+    width: 325px;
+    font-size: 12px;
+    text-align: left;
+  }
+
   .subcat {
     text-align: center;
-    font-size:18px;
+    font-size: 18px;
   }
   .site-layout .site-layout-background {
     background: #fff;
   }
-  
+
   .flexbox-container {
     display: flex;
     width: 100px;
@@ -175,14 +155,6 @@ img {
     align-items: center;
   }
 
-  .ant-row{
-   
-    width: 100%;
-   
-    
-    
-  }
-  
   .header-1 {
     padding: 10px;
     text-align: left;
@@ -190,12 +162,8 @@ img {
     color: white;
     font-size: 30px;
   }
-  
 
-  
   img {
     max-width: 96.9%;
   }
-
-  
 }
