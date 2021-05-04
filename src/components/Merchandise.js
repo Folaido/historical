@@ -23,7 +23,7 @@ import house3 from "../assets/house3.jpg";
 import house4 from "../assets/house4.jpg";
 import nortonBook from "../assets/nortonBook.jpg";
 import { Footer as Bottom } from "./Footer";
-import { Layout, Card, Divider, Button } from "antd";
+import { Layout, Card, Divider, Button, Row, Col } from "antd";
 import Thing from "./merchWork";
 const { Content, Footer } = Layout;
 const { Meta } = Card;
@@ -43,11 +43,10 @@ class Merchandise extends React.Component {
     <Layout className="layout">
       <Topbar selectedKey={"Merchandise"} />
       <Content>
-        <div className="content">
+        <div className="content merc">
           <Divider plain orientation="left" style={{ fontSize: 40 }}>
-            <b>NHS Store</b>
+            <b>NHS STORE</b>
           </Divider>
-
           <br></br>
           <div className="featured-item">
             <img className="book-img" src={nortonBook} />
@@ -71,168 +70,211 @@ class Merchandise extends React.Component {
           <p className="hint" style={{ fontSize: 16 }}>
             * Please visit the historical society to buy these magnets
           </p>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Norton Reservoir"
-              title="Norton Reservoir"
-              description="Magnet - $2"
-              images={reservoir}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton Church"
-              title="Historic Norton Church"
-              description="Magnet - $2"
-              images={church}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Town Common"
-              title="Town Common"
-              description="Magnet - $2"
-              images={common}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="East Norton"
-              title="East Norton"
-              description="Magnet - $2"
-              images={enorton}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton House"
-              title="Historic Norton House"
-              description="Magnet - $2"
-              images={house1}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Peacock Pond"
-              title="Peacock Pond"
-              description="Magnet - $2"
-              images={pond}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Norton Factory"
-              title="Norton Factory"
-              description="Magnet - $2"
-              images={factory}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="MaryLyon"
-              title="MaryLyon"
-              description="Magnet - $2"
-              images={marylyon}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Men in Factory"
-              title="Men in Factory"
-              description="Magnet - $2"
-              images={men}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton Church #2"
-              title="Historic Norton Church #2"
-              description="Magnet - $2"
-              images={church2}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Train Station"
-              title="Train Station"
-              description="Magnet - $2"
-              images={train}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton Church #3"
-              title="Historic Norton Church #3"
-              description="Magnet - $2"
-              images={church3}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton House #2"
-              title="Historic Norton House #2"
-              description="Magnet - $2"
-              images={house2}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Old Town Hall"
-              title="Old Town Hall"
-              description="Magnet - $2"
-              images={townhall}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Town Common #2"
-              title="Town Common #2"
-              description="Magnet - $2"
-              images={common2}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="President's House"
-              title="President's House"
-              description="Magnet - $2"
-              images={presHouse}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton House #3"
-              title="Historic Norton House #3"
-              description="Magnet - $2"
-              images={house3}
-            />
-          </div>
-          <div className="card-content">
-            <Thing
-              name="something style"
-              mtitle="Historic Norton House #4"
-              title="Historic Norton House #4"
-              description="Magnet - $2"
-              images={house4}
-            />
-          </div>
+
+          <Row gutter={(8, 16)}>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Norton Reservoir"
+                  title="Norton Reservoir"
+                  description="Magnet - $2"
+                  images={reservoir}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton Church"
+                  title="Historic Norton Church"
+                  description="Magnet - $2"
+                  images={church}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Town Common"
+                  title="Town Common"
+                  description="Magnet - $2"
+                  images={common}
+                />
+              </div>
+            </Col>
+
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="East Norton"
+                  title="East Norton"
+                  description="Magnet - $2"
+                  images={enorton}
+                />
+              </div>
+            </Col>
+
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton House"
+                  title="Historic Norton House"
+                  description="Magnet - $2"
+                  images={house1}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Peacock Pond"
+                  title="Peacock Pond"
+                  description="Magnet - $2"
+                  images={pond}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Norton Factory"
+                  title="Norton Factory"
+                  description="Magnet - $2"
+                  images={factory}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="MaryLyon"
+                  title="MaryLyon"
+                  description="Magnet - $2"
+                  images={marylyon}
+                />
+              </div>
+            </Col>
+
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Men in Factory"
+                  title="Men in Factory"
+                  description="Magnet - $2"
+                  images={men}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton Church #2"
+                  title="Historic Norton Church #2"
+                  description="Magnet - $2"
+                  images={church2}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Train Station"
+                  title="Train Station"
+                  description="Magnet - $2"
+                  images={train}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton Church #3"
+                  title="Historic Norton Church #3"
+                  description="Magnet - $2"
+                  images={church3}
+                />
+              </div>
+            </Col>
+
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton House #2"
+                  title="Historic Norton House #2"
+                  description="Magnet - $2"
+                  images={house2}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Old Town Hall"
+                  title="Old Town Hall"
+                  description="Magnet - $2"
+                  images={townhall}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Town Common #2"
+                  title="Town Common #2"
+                  description="Magnet - $2"
+                  images={common2}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="President's House"
+                  title="President's House"
+                  description="Magnet - $2"
+                  images={presHouse}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton House #3"
+                  title="Historic Norton House #3"
+                  description="Magnet - $2"
+                  images={house3}
+                />
+              </div>
+            </Col>
+            <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
+              <div className="card-content">
+                <Thing
+                  name="something style"
+                  mtitle="Historic Norton House #4"
+                  title="Historic Norton House #4"
+                  description="Magnet - $2"
+                  images={house4}
+                />
+              </div>
+            </Col>
+          </Row>
         </div>
       </Content>
 

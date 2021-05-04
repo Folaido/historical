@@ -14,7 +14,6 @@ function Thing(props) {
 
   return (
     <Card
-      hoverable
       className="cards"
       bordered={false}
       cover={<img className="cardpic" src={props.images} alt="Logo"></img>}

@@ -54,6 +54,7 @@ const Topbar = () => {
           <Link to="/stories">Stories</Link>
           <Dropdown
             overlay={visit}
+            trigger={['click']}
             overlayStyle={{ fontSize: 18, color: "#fff" }}
           >
             <a onClick={(e) => e.preventDefault()}>
@@ -62,6 +63,7 @@ const Topbar = () => {
           </Dropdown>
           <Dropdown
             overlay={support}
+            trigger={['click']}
             overlayStyle={{ fontSize: 18, color: "#fff" }}
           >
             <a onClick={(e) => e.preventDefault()}>
@@ -69,34 +71,6 @@ const Topbar = () => {
             </a>
           </Dropdown>
           <Link to="/about">About</Link>
-          {/* <Menu
-            style={{
-              fontSize: "18px",
-              fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
-              borderBottom: "none",
-            }}
-            theme="light"
-            mode="horizontal"
-            selectedKeys={[selectedKey]}
-            inlineIndent={24}
-          >
-            <Menu.Item key="Stories">
-              <Link to="/stories">Stories</Link>
-            </Menu.Item>
-
-            <Menu.Item key="Visit">
-              <Link to="/visit">Visit</Link>
-            </Menu.Item>
-
-            <Dropdown overlay={support}>Support</Dropdown>
-            <Menu.Item key="Merchandise">
-              <Link to="/merchandise">Merchandise</Link>
-            </Menu.Item>
-
-            <Menu.Item key="About">
-              <Link to="/about">About Us</Link>
-            </Menu.Item>
-          </Menu> */}
         </div>
       </div>
     </div>

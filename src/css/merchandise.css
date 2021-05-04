@@ -53,13 +53,13 @@
 }
 
 .title {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .hint {
-    font-size: 8px;
+  font-size: 8px;
 }
 
 .bookTitle {
@@ -81,12 +81,11 @@
   min-width: 852px;
 }
 
-
 .card-content {
   display: inline-block;
-  padding: 24px;
+  /* padding: 24px;
   width: 30%;
-  height: 30%;
+  height: 30%; */
   max-width: 350px;
   max-height: 100px;
 }
@@ -103,8 +102,7 @@
 
   .card-content {
     display: block;
-    margin-right: 1000px;
-    margin-left: 20px;
+    margin: auto;
   }
 
   .book-img {
