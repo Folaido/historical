@@ -10,6 +10,8 @@ import campms from "../assets/CampMS.jpg";
 import welcomeww2 from "../assets/WelcomeWW2.jpg";
 import ThingPic from "./PictureWorks";
 import { Link } from "react-router-dom";
+import barrow from "../assets/BarrowsvilleRR.jpg";
+import barrowpdf from "../assets/histBar.pdf"
 const { Content, Footer } = Layout;
 
 class Home extends React.Component {
@@ -58,6 +60,27 @@ class Home extends React.Component {
 
                         </Row>
 
+                    </div>
+                    <div>
+                     <Row gutter={[8, 16]}>
+                            <Col xs={24} sm={24} md={12} lg={12}xl={12} xxl={12} >
+                                
+                                <a href={barrowpdf} target="_blank">
+                                    <ThingPic
+                                        title="History of Barrowsville"
+                                        image={barrow}
+                                    />
+                                    </a>
+                               
+                            </Col>
+
+                           
+
+
+
+
+
+                        </Row>
                     </div>
 
 
