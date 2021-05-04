@@ -83,9 +83,8 @@ class Towntour extends React.Component {
           <Divider plain orientation="left" style={{ fontSize: 40 }}>
             <b>TOWN TOUR</b>
           </Divider>
-          <Row justify="center" align="top">
-            
-            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6"  >
+          <Row justify="center" align="top" gutter={(8, 16)}>
+            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -104,8 +103,8 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            
-            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+
+            <Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -123,7 +122,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -141,7 +140,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -157,7 +156,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -174,7 +173,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -192,7 +191,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -208,7 +207,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -224,9 +223,8 @@ class Towntour extends React.Component {
               Great Rocky Hill."
                 />
               </div>
-            
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -247,7 +245,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -265,7 +263,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -281,7 +279,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -298,7 +296,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -314,7 +312,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -333,7 +331,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -352,7 +350,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -368,7 +366,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -384,7 +382,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -399,7 +397,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -416,7 +414,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -432,7 +430,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -448,7 +446,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -464,7 +462,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -481,7 +479,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -498,7 +496,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -516,7 +514,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -534,7 +532,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -551,7 +549,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -567,7 +565,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -583,7 +581,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -600,7 +598,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -617,7 +615,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -633,10 +631,9 @@ class Towntour extends React.Component {
               Standing left to right: Donald Stewart, Charles Flaherty, Alex Stewart, Charles Randall - principal, Wilfred Yelle 
               and Robert Young."
                 />
-
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -651,7 +648,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -667,7 +664,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -682,7 +679,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -698,7 +695,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -714,7 +711,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -731,7 +728,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -747,7 +744,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -763,7 +760,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -780,7 +777,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -796,7 +793,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -813,7 +810,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -829,7 +826,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"
@@ -845,7 +842,7 @@ class Towntour extends React.Component {
                 />
               </div>
             </Col>
-            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6" >
+            <Col Col xs="7.5" sm="7.5" md="7.5" lg="7.5" xl="5" xxl="6">
               <div className="card-content">
                 <Thing
                   name="something style"

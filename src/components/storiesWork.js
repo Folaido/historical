@@ -34,7 +34,7 @@ function Thing(props) {
         bordered={false}
         cover={<img className="cardpic" src={props.images} alt="Logo"></img>}
       >
-        <Meta title={props.title} description={props.description} />
+        <Meta title={props.title} />
       </Card>
       <Modal
         title={props.mtitle}
