@@ -7,6 +7,11 @@ import logo from "../assets/logo.png";
 import ruth from "../assets/RuthNHS.jpg";
 import janice from "../assets/Janice.png";
 import bob from "../assets/boblanpher.png";
+import joe from "../assets/people/Joe Olivieri.png";
+import george from "../assets/people/George Yelle.png";
+import joyce from "../assets/people/ReformatJoy.png";
+import marshall from "../assets/people/Marshall Brown.png";
+import chris from "../assets/people/Christine Carmichael.png";
 import Thing from "./Works";
 import { Divider, Card, Row, Col } from "antd";
 import { Link } from "react-router-dom";
@@ -84,6 +89,7 @@ class Home extends React.Component {
               <b>Directors</b>
             </h2>
             <div className="site-card-wrapper">
+            
               <Row
                 gutter={(16, 8)}
                 style={{ justifyContent: "center", textAlign: "center" }}
@@ -93,15 +99,15 @@ class Home extends React.Component {
                     name="Marshall Martin"
                     mtitle="Marshall Martin"
                     title="Director"
-                    image={logo}
+                    image={marshall}
                   />
                 </Col>
                 <Col span={7.5}>
                   <Thing
-                    name="Joe"
+                    name="Joe Oliveri"
                     mtitle="Joe"
                     title="Director"
-                    image={logo}
+                    image={joe}
                   />
                 </Col>
                 <Col span={7.5}>
@@ -109,7 +115,7 @@ class Home extends React.Component {
                     name="Christine Carmichael"
                     mtitle="Christine Carmichael"
                     title="Director"
-                    image={logo}
+                    image={chris}
                   />
                 </Col>
                 <Col span={7.5}>
@@ -117,7 +123,7 @@ class Home extends React.Component {
                     name="Joyce Guild"
                     mtitle="Joyce Guild"
                     title="Director"
-                    image={logo}
+                    image={joyce}
                   />
                 </Col>
                 <Col span={7.5}>
@@ -125,7 +131,7 @@ class Home extends React.Component {
                     name="George Yelle"
                     mtitle="George Yelle"
                     title="Director"
-                    image={logo}
+                    image={george}
                   />
                 </Col>
               </Row>
