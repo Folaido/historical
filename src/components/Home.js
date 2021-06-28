@@ -31,22 +31,11 @@ const Home = () => {
     <Layout className="layout">
       <Topbar selectedKey={"Home"} />
       <Content>
-        <LeftCircleOutlined className="prev-btn" onClick={onPrevClick} />
         <Carousel className="carousel" ref={(c) => (carousel = c)} autoplay>
-          <div className="container">
-            <img src={home1} alt="first" />
-          </div>
-          <div className="container">
-            <img src={home2} alt="second" />
-          </div>
-          <div className="container">
-            <img src={home3} alt="third" />
-          </div>
           <div className="container">
             <img src={home4} alt="fourth" />
           </div>
         </Carousel>
-        <RightCircleOutlined className="next-btn" onClick={onNextClick} />
         <div className="home-content">
           <h1>NORTON HISTORICAL SOCIETY</h1>
           <p>

@@ -48,28 +48,23 @@ class Merchandise extends React.Component {
             <b>NHS STORE</b>
           </Divider>
           <br></br>
+          <p className="hint" style={{ fontSize: 16 }}>
+            * Please contact the Historical Society via email - nortonhistoricalsociety@verizon.net to purchase the book for $20 or any of the magnets ($2).
+          </p>
+          
           <div className="featured-item">
             <img className="book-img" src={nortonBook} />
             <div className="book-content">
-              <h1 className="title">Featured Item: Images of Norton Book</h1>
+              <h1 style={{ fontSize: 32 }} className="title">Featured Item: Images of America - Norton</h1>
               <p>George A. Yelle and Ruth E. Goold</p>
-              <p>$21.99</p>
-              <a
-                href="https://www.amazon.com/Norton-Massachusetts-George-Yelle/dp/0738502642/"
-                target="_blank"
-              >
-                <Button className="btn" type="primary">
-                  Shop Now
-                </Button>
-              </a>
+              <p>$20</p>
             </div>
           </div>
           <br></br>
           <br></br>
+
+
           <h1 className="title">Historical Norton Magnets</h1>
-          <p className="hint" style={{ fontSize: 16 }}>
-            * Please visit the historical society to buy these magnets
-          </p>
 
           <Row gutter={(8, 16)}>
             <Col xs={7.5} sm={7.5} md={7.5} lg={12} xl={8} xxl={8}>
